@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import * as firebase from 'firebase';
 import './App.css';
 import RoomList from './components/RoomList';
+import * as firebase from 'firebase';
 
   // Initialize Firebase
   var config = {
