@@ -1,0 +1,100 @@
+.rooms {
+	border: 1px solid green;
+	padding: 1rem;
+}
+
+*:focus {
+	outline: none;
+}
+
+.newRoomButton {
+	cursor: pointer;
+	padding: 8px;
+	min-width: 95px !important;
+	text-decoration: none;
+	border-radius: 4px;
+	margin-left: 20px;
+	background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+    font-weight: bold;
+}
+
+.newRoomButton:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+.modal-style {
+	padding: 10px;
+	justify-content: center;
+	background-color: lightgrey;
+	border-radius: 4px;
+	width: 18%;
+  	position: fixed;
+    top: 50%;
+    left: 50%;
+  	transform: translate(-50%, -100%);
+}
+
+.modal-buttons {
+	text-align: center;
+	width: 100%;
+	-webkit-transition-duration: 0.4s;
+}
+
+.inner-button {
+	display: inline-block;
+	padding: 8px;
+	min-width: 107px !important;
+	text-decoration: none;
+	border-radius: 4px;
+	font-size: 12px;
+	margin: 6px 2px;
+	cursor: pointer;
+}
+
+.cancel-button {
+	background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+
+.cancel-button:hover {
+	background-color: #555555;
+    color: white;
+}
+
+.newroom-button {
+	background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+}
+
+.newroom-button:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+input {
+	width: 100%;
+	border-radius: 4px;
+}
+
+
+#room-form  p {
+	font-size: smaller;
+	margin-top: 0;
+}
+
+#room-form  h4 {
+	margin-bottom: 5px;
+}
+
+th {
+	font-size: 24px;
+}
+
+.newRoomButton {
+	justify-content: right;
+}

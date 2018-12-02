@@ -1,0 +1,42 @@
+.main {
+	border: 1px solid red;
+	padding: 1rem;
+}
+
+#messageTable {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#messageTable th {
+	text-align: left;
+	padding: 8px;
+
+}
+
+#messageTable td {
+	border: 1px solid grey;
+	padding: 8px;
+}
+
+#messageTable tr:nth-child(even){
+	background-color: lightblue;
+}
+
+.lbl-username {
+	font-weight: bold;
+	font-size: smaller;
+	display: inline-block;
+}
+
+.lbl-timestamp {
+	font-style: italic;
+	font-size: smaller;
+	display: inline-block;
+	float: right;
+}
+
+.lbl-content {
+	font-size: smaller;
+	display: block
+}
