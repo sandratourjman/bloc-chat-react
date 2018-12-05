@@ -31,7 +31,7 @@ class MessageList extends Component {
 			<table id="messageTable">
 				<thead>
 					<tr>
-						<th>{ this.props.activeRoom ? this.props.activeRoom.name : '' }</th>
+						<th>{ this.props.activeRoom ? this.props.activeRoom.name : 'Select a room' }</th>
 					</tr>
 				</thead>
 				<tbody>

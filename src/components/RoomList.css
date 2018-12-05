@@ -98,3 +98,7 @@ th {
 .newRoomButton {
 	justify-content: right;
 }
+
+.rooms-list {
+	cursor: pointer;
+}

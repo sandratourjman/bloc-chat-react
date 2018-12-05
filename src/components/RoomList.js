@@ -75,7 +75,7 @@ class RoomList extends Component {
 				</thead> 
 	          <tbody>
 				{this.state.rooms.map((room) =>
-					<tr key={room.key}>
+					<tr key={room.key} className="rooms-list">
 						<td onClick={()=> this.props.selectActiveRoom(room)}>{room.name}</td>
 					</tr>
 					)}
