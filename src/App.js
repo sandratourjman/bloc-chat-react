@@ -39,6 +39,7 @@ class App extends Component {
     });
   }
 
+
   render() {
     const currentUser = this.state.user === null ? "Guest" : this.state.user.displayName;
 
@@ -55,8 +56,9 @@ class App extends Component {
           />
         </aside>
         <section className="messages">
-          <MessageList firebase={firebase} activeRoom={this.state.activeRoom} />
+          <MessageList firebase={firebase} activeRoom={this.state.activeRoom} user={this.state.user} />
         </section>
+
       </div>
     );
   }

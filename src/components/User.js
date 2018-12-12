@@ -34,9 +34,8 @@ class User extends Component {
 		return (
 			<div className="User">
 				<span>Weclome, {this.props.user}</span>
-				{ this.props.user === 'Guest'? 
-				<button className="signIn" onClick={this.signIn}>Sign In</button> : ''}
-				<button className="signOut" onClick={this.signOut}>Sign Out</button>
+				{ this.props.user === 'Guest'? <button className="signIn" onClick={this.signIn}>Sign In</button> : ''}
+				{this.props.user !== 'Guest'? <button className="signOut" onClick={this.signOut}>Sign Out</button>: ''}
 				
 			</div>
 		);
